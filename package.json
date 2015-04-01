@@ -1,0 +1,27 @@
+{
+  "name": "backbone-sync-fetch",
+  "version": "0.1.0",
+  "description": "A Backbone.sync implementation using the fetch API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jgable/backbone-sync-fetch.git"
+  },
+  "keywords": [
+    "backbone",
+    "sync",
+    "fetch"
+  ],
+  "author": "Jacob Gable <jacob.gable@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jgable/backbone-sync-fetch/issues"
+  },
+  "homepage": "https://github.com/jgable/backbone-sync-fetch",
+  "dependencies": {
+    "backbone": "^1.1.2"
+  }
+}
