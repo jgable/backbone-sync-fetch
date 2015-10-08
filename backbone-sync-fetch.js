@@ -32,13 +32,13 @@ function backboneFetchSync(method, model, options) {
     options.url = result(model, 'url') || throwUrlError();
   }
 
-  if (type !== 'GET') {
-    if (!options.headers) {
-      options.headers = new Headers();
-      options.headers.append('Content-Type', 'application/json');
-    }
+  if (!options.headers) {
+    options.headers = new Headers();
+    options.headers.append('Content-Type', 'application/json');
+  }
+  params.headers = options.headers;
 
-    params.headers = options.headers;
+  if (type !== 'GET') {
     params.body = JSON.stringify(options.body || model.toJSON(options));
   }
 
