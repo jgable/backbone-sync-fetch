@@ -1,6 +1,6 @@
 {
   "name": "backbone-sync-fetch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Backbone.sync implementation using the fetch API",
   "main": "index.js",
   "scripts": {
